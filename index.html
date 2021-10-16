@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<title>Настя №1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {
+    width: 100px;
+    background: #222;
+  }
+
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {
+    margin-left: 120px
+  }
+
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0
+    }
+  }
+</style>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>О НАСТЕ</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PHOTOS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo">Настя Юркова</h1>
+      <p>Настя №1</p>
+      <img src="images/finfin.png" alt="nastya" class="w3-image" width="100%" height="100%">
+    </header>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">Чем же эта Настя отличается от остальных Насть?</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>Как только мы встретились на тусовке Щорса, мне сразу стало понятно, что эта девочка будет одной из заводил.
+        Такая приколдесная девчуля не могла остаться в стороне от движа, который происходил буквально везде на первых
+        неделях учебы. Обожаю веселых и подвижных мадам!<br>
+        И, как каждый из нас знает, Настя очень ответственная. Вот кто-кто, а она станет директором чего-то полезного. А
+        еще в придачу и замечательным лидером, ведь Настя всегда готова помочь! Спасибо, что помогала мне с АиП-ом!<br>
+        Потому и не удивительно, что у Насти так много друзей и знакомых. Знай, что ты очень замечательная и открытая.
+        Пожалуйста, продолжай оставаться такой! ❤
+
+
+      </p>
+</div>
+
+
+
+      <!-- Grid for pricing tables -->
+
+
+      <!-- End Grid/Pricing tables -->
+
+
+      <!-- Portfolio Section -->
+      <div class="w3-padding-64 w3-content" id="photos">
+        <h2 class="w3-text-light-grey">Супер фоточки Насти</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half">
+            <img src="images/n3-n.jpg" style="width:100%">
+            <img src="images/n5-n.jpg" style="width:100%">
+            <img src="images/photo_2021-10-16_14-38-57.jpg" style="width:100%">
+            <img src="images/n8.jpg" style="width:100%">
+          </div>
+
+          <div class="w3-half">
+            <img src="images/n2.png" style="width:100%">
+            <img src="images/n6-n.jpg" style="width:100%">
+            <img src="images/n7-n.jpg" style="width:100%">
+            <img src="images/n4.png" style="width:100%">
+          </div>
+          <!-- End photo grid -->
+        </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+          <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+            <p>А вот ссылочка на Настин Инстаграм</p>
+            <hr style="width:200px" class="w3-opacity">
+
+            <a href="https://www.instagram.com/nst.yrk/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+
+
+
+            <!-- End footer -->
+          </footer>
+          <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+            <p>Напоследок хочу сказать, что ты такая же милашка, как и твои котики!</p>
+            <img style="width:350px" src="images/photo_2021-10-16_16-05-00.jpg">
+          </footer>
+
+          <!-- END PAGE CONTENT -->
+        </div>
+
+
+</body>
+
+</html>
